@@ -12,7 +12,7 @@ let config = {
     path: __dirname,
     publicPath: '/',
     filename: 'bundle.js'
-  },
+  },test
   module: {
     loaders: [
       {
