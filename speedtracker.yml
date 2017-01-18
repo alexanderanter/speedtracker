@@ -1,9 +1,9 @@
 #
-#             ____                ________             __          
+#             ____                ________             __
 #            / __/__  ___ ___ ___/ /_  __/______ _____/ /_____ ____
 #           _\ \/ _ \/ -_) -_) _  / / / / __/ _ `/ __/  '_/ -_) __/
-#           ___/ .__/\__/\__/\_,_/ /_/ /_/  \_,_/\__/_/\_\\__/_/   
-#             /_/                                                  
+#           ___/ .__/\__/\__/\_,_/ /_/ /_/  \_,_/\__/_/\_\\__/_/
+#             /_/
 #                          https://speedtracker.org
 #
 
@@ -37,7 +37,7 @@
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-encryptionKey: "YOUR_ENCRYPTED_KEY"
+encryptionKey: "8f836659c63ce03a85854a709388448b0230fa00552d4b6ed9153ec678c6dd83"
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -50,7 +50,7 @@ encryptionKey: "YOUR_ENCRYPTED_KEY"
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-wptKey: "YOUR_ENCRYPTED_WEBPAGETEST_KEY"
+wptKey: "f7c9630c953beb6d85811a20c68945d60065f65401281d308e466ec170c083d5c96e"
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -63,7 +63,7 @@ wptKey: "YOUR_ENCRYPTED_WEBPAGETEST_KEY"
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-#wptUrl: "YOUR_ENCRYPTED_WPT_INSTANCE_URL"
+#wptUrl: "de93241fd331f67694905f6b9ede15cb5973a15e10601867920664da"
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -79,16 +79,16 @@ wptKey: "YOUR_ENCRYPTED_WEBPAGETEST_KEY"
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-#alerts:
-#  emailAlert:
-#    type: "email"
-#    recipients: ["ENCRYPTED_EMAIL_ADDRESS"]
-#  otherEmailAlert:
-#    type: "email"
-#    recipients: ["ENCRYPTED_EMAIL_ADDRESS2", "ENCRYPTED_EMAIL_ADDRESS3"]
-#  slackAlert:
-#    type: "slack"
-#    hookUrl: "ENCRYPTED_SLACK_HOOK_URL"
-#    channel: "#speedtracker"
-#    username: "SpeedTracker"
-#    iconEmoji: ":grimacing:"
+alerts:
+ emailAlert:
+   type: "email"
+   recipients: ["d789240ad262be2d"]
+ # otherEmailAlert:
+ #   type: "email"
+ #   recipients: ["ENCRYPTED_EMAIL_ADDRESS2", "ENCRYPTED_EMAIL_ADDRESS3"]
+ slackAlert:
+   type: "slack"
+   hookUrl: "de93241fd331f6768b88472e819102de5465a91b00211627cf167d832191dec7830ffe34ba39d303cf8184e923b87344297f3e3d5ecfb6fbd8a2a743ec5f45d1700b619dd060d9acc09e5a847e"
+   channel: "#llwebalert"
+   username: "Speedtracker"
+   iconEmoji: ":airplane_arriving:"
