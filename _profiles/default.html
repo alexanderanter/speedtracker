@@ -39,10 +39,11 @@ parameters:
 budgets:
   -
     metric: TTFB
-    max: 500
+    max: 300
     alerts: ["emailAlert", "slackAlert"]
   -
     metric: firstPaint
-    max: 7000
+    max: 1000
     alerts: ["slackAlert"]
+
 ---
