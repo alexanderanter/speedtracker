@@ -24,7 +24,7 @@ interval: 12
 parameters:
   connectivity: "Cable"
   location: "ec2-eu-west-1:Chrome"
-  runs: 1
+  runs: 5
   url: "https://www.ladylucks.co.uk/"
 
 #
@@ -39,11 +39,11 @@ parameters:
 budgets:
   -
     metric: TTFB
-    min: 1000
+    max: 1000
     alerts: ["emailAlert", "slackAlert"]
   -
     metric: firstPaint
-    min: 3000
+    max: 3000
     alerts: ["slackAlert"]
 
 ---
